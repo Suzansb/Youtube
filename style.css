@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+
+
+}
+
+body{
+    background-color: #ccc;
+    color: white;
+    padding-left: 250px;
+    padding-top: 100px;
+    padding-right: 10px;
+    background-color: black;
+}
+
+.navbar{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    padding: 10px;
+    padding-right: 35px;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type=search] {
+    width: 500px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  button{
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+.catnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.catnav p{
+    background: rgb(62, 61, 61);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.catnav p:first-child{
+    background-color: aliceblue;
+    color: black;
+    width: 40px;
+
+}
+
+.search_area{
+    margin-left: 20%;
+}
+
+.profile_area{
+    display: flex;
+    gap: 20px;
+}
+.profile_area span{
+    font-size: 30px;
+}
+
+.sidebar{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding-left: 10px;
+    width: 230px;
+    top:0;
+    left:0;
+    bottom:0;
+}
+
+.sidebar p{
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+}
+
+.sidebar p:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 10px;
+}
+
+.main_logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebar .active{
+    background-color: rgb(62, 61, 61);
+    border-radius: 10px;
+}
+
+
+
+
+.sidebar span{
+    padding-right: 20px;
+}
+
+.container{
+    display: flex;
+    padding: 30px;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 330px;
+    margin-bottom: 25px;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 8%;
+    height: 191px;
+}
+
+.video_details{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+.video_details img{
+    width: 38px;
+    height: 38px;
+}
+
+.channel_logo img{
+    border-radius: 50%;
+
+}
+
+.video_content{
+    padding-right: 20px;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.video_content p:first-child{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+.video_content p:nth-child(2){
+    color: #969393;
+}
+.video_content p:nth-child(3){
+    color: #969393;
+}
